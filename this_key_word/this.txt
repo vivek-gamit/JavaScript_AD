@@ -1,3 +1,6 @@
+this ki value
+______________
+
 global - window
 function - window
 method wiht es5 function - object

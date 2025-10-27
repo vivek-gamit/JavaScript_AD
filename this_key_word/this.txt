@@ -1,0 +1,8 @@
+global - window
+function - window
+method wiht es5 function - object
+method with es6 arrow function - window 
+es5 function inside es5 method - window
+arrow function inside es5 method - object
+event handler - element 
+class - blank object 

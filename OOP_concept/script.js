@@ -12,5 +12,5 @@ CreatePencil.prototype.write = function(text){
 
     }
 
-let pencil1 = new CreatePancile("natraj",20,"red");
-let pencil2 = new CreatePancile("Doms",30,"blue");
+let pencil1 = new CreatePencil("natraj",20,"red");
+let pencil2 = new CreatePencil("Doms",30,"blue");

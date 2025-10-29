@@ -20,7 +20,13 @@ let Bank = (function(){
     return{
         checkbalance,
         setbalance,
-        withdraw
+        withdraw,
+        
+        // in this if we return like this 
+        check:  checkbalance,
+        set: setbalance,
+        draw: withdraw
+        // then it's called revealing module pattern
     }
 })();
 

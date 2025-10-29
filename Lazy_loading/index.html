@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy Loading Images</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center space-y-8 p-10">
+
+  <h1 class="text-3xl font-bold">🌄 Lazy Loading Images Demo</h1>
+
+  <!-- Example images with placeholder -->
+  <img class="lazy w-80 h-60 object-cover rounded-lg shadow-lg"
+       src="https://via.placeholder.com/10"
+       data-src="https://picsum.photos/id/1015/800/600"
+       alt="Nature Image 1">
+
+  <img class="lazy w-80 h-60 object-cover rounded-lg shadow-lg"
+       src="https://via.placeholder.com/10"
+       data-src="https://picsum.photos/id/1016/800/600"
+       alt="Nature Image 2">
+
+  <img class="lazy w-80 h-60 object-cover rounded-lg shadow-lg"
+       src="https://via.placeholder.com/10"
+       data-src="https://picsum.photos/id/1020/800/600"
+       alt="Nature Image 3">
+
+  <img class="lazy w-80 h-60 object-cover rounded-lg shadow-lg"
+       src="https://via.placeholder.com/10"
+       data-src="https://picsum.photos/id/1035/800/600"
+       alt="Nature Image 4">
+
+  <img class="lazy w-80 h-60 object-cover rounded-lg shadow-lg"
+       src="https://via.placeholder.com/10"
+       data-src="https://picsum.photos/id/1040/800/600"
+       alt="Nature Image 5">
+
+  <script src="script.js"></script>
+</body>
+</html>
